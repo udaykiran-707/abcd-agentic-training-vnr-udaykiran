@@ -1,58 +1,14 @@
-# 🤖 Multi-Agent Research Assistant
+# 🚀 Multi Agent Researcher & Report Generator
+
+An AI-powered multi-agent system that automates the complete research workflow — from data collection to structured report generation and PDF export.
+
+---
 
 ## 📌 Overview
 
-The **Multi-Agent Research Assistant** is an AI-powered system designed to automate the process of researching, filtering, summarizing, and generating structured reports from multiple data sources.
+This project simplifies research using an **agentic architecture**, where multiple specialized agents collaborate step-by-step to complete a task.
 
-This project follows an **agentic workflow**, where multiple specialized agents collaborate to solve a real-world problem: reducing the time and effort required for manual research and report creation.
-
----
-
-## 🎯 Problem Statement
-
-Students and professionals spend a significant amount of time searching, cleaning, and summarizing information from different sources.
-
-This system addresses that problem by:
-
-* Automatically collecting data
-* Cleaning and filtering information
-* Generating AI-based summaries
-* Producing structured reports
-
----
-
-## 🧠 Key Features
-
-* 🔍 Multi-source data collection (Wikipedia + Web Search)
-* 🧹 Intelligent data filtering and cleaning
-* 🤖 AI-based summarization using Transformers
-* 📝 Structured report generation
-* 💾 Persistent memory (search history)
-* 📄 PDF report export
-* 🌐 Interactive web UI using Streamlit
-
----
-
-## ⚙️ Tech Stack
-
-* Python
-* Streamlit
-* Hugging Face Transformers
-* PyTorch
-* Wikipedia API
-* DuckDuckGo Search
-* FPDF
-
----
-
-## 🤖 Agents Used
-
-| Agent            | Role                                |
-| ---------------- | ----------------------------------- |
-| Research Agent   | Collects data from multiple sources |
-| Filter Agent     | Cleans and processes raw data       |
-| Summarizer Agent | Generates AI-based summaries        |
-| Writer Agent     | Creates structured reports          |
+Instead of relying on a single AI model, the system breaks the workflow into smaller components handled by different agents — making the process modular, transparent, and efficient.
 
 ---
 
@@ -62,110 +18,141 @@ User Input → Research Agent → Filter Agent → Summarizer Agent → Writer A
 
 ---
 
-## 💾 Memory & Persistence
+## ⚙️ How It Works
 
-* Stores search history in `memory.json`
-* Enables retrieval of past queries
-* Provides summary preview in UI
+1. **User Input**
+   The user enters a topic for research.
+
+2. **Agent Workflow**
+   🔍 Research Agent → Collects data from Wikipedia & web sources
+   🧹 Filter Agent → Cleans and processes raw data
+   🧠 Summarizer → Extracts key insights
+   📄 Writer Agent → Generates structured report
+   📥 PDF Generator → Converts report into downloadable PDF
+
+3. **Output**
+
+   * Displays structured report
+   * Provides downloadable PDF
+   * Stores history of previous searches
 
 ---
 
-## ⚠️ Guardrails
+## ✨ Features
 
-* Prevents empty input
-* Handles errors gracefully
-* Ensures system stability
+* Multi-agent architecture
+* Real-time agent execution visualization
+* Automated research → filtering → reporting pipeline
+* PDF report generation
+* Memory-based history tracking
+* Interactive Streamlit UI
+* Deployed and accessible online
 
 ---
 
-## 📁 Project Structure
+## 🛠 Tech Stack
 
-multi_agent_researcher/
+* Python
+* Streamlit
+* APIs (Wikipedia / Web search)
+* FPDF
+
+---
+
+## 📂 Project Structure
+
+My_Agent_Project/
 │
 ├── agents/
 │   ├── research.py
 │   ├── filter.py
+│   ├── writer.py
 │   ├── summarizer.py
-│   └── writer.py
 │
 ├── utils/
-│   ├── memory.py
-│   ├── pdf_generator.py
-│   └── chunking.py
+│   └── memory.py
 │
-├── data/
-│   └── memory.json
-│
-├── outputs/
-│   └── (generated PDFs)
-│
-├── main.py
 ├── app.py
+├── main.py
 ├── requirements.txt
-└── README.md
+└── outputs/
 
 ---
 
-## ▶️ How to Run
+## 🚀 Installation & Setup
 
 1. Clone the repository
-   git clone 
-   cd multi_agent_researcher
+   git clone https://github.com/udaykiran-707/Agentic-AI-project.git
+   cd  Agentic-AI-project  
 
 2. Create virtual environment
    python -m venv venv
+
+3. Activate environment
    venv\Scripts\activate
 
-3. Install dependencies
+4. Install dependencies
    pip install -r requirements.txt
 
-4. Run the application
+5. Run the app
    streamlit run app.py
 
 ---
 
-## 🧪 Example Use Cases
+## 🌐 Live Demo
 
-* Research topics for assignments
-* Quick knowledge summaries
-* Report generation for presentations
-* Learning new topics efficiently
+👉 https://agentic-multi-agents.streamlit.app/
 
 ---
 
-## 🌐 Deployment
+## 💻 GitHub Repository
 
-This project can be deployed using:
-
-* Hugging Face Spaces
-* Streamlit Cloud
+👉 https://github.com/udaykiran-707/Agentic-AI-project
 
 ---
 
-## 🚀 Future Enhancements
+## 🎯 What I Learned
 
-* Integration with Vector Databases
-* Semantic search capabilities
-* Multi-language support
-* Voice input support
-
----
-
-## 📊 Demo
-
-* Enter a topic
-* Generate report
-* Download PDF
-* View history
+* Designing multi-agent workflows
+* Breaking complex systems into modular components
+* Building real-world AI applications
+* Deploying applications
 
 ---
 
-## 📌 Conclusion
+## 🔮 Future Improvements
 
-This project demonstrates how **multi-agent systems** can automate complex workflows like research and report generation using AI.
+* Add advanced AI/LLM summarization
+* Improve UI/UX with animations
+* Add database for persistent storage
+* Integrate more data sources
 
 ---
 
-## 👨‍💻 Author
+## 🤝 Contributing
 
-Uday Kiran
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgements
+
+* Streamlit
+* Python community
+* Open-source contributors
+
+---
+
+## 📬 Contact
+
+Feel free to connect for feedback or collaboration.
+
+---
+
+⭐ If you like this project, give it a star!
