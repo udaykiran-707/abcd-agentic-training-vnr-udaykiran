@@ -177,13 +177,15 @@ streamlit run app.py
  <img width="1920" height="1080" alt="Screenshot 2026-04-09 160257" src="https://github.com/user-attachments/assets/6d14a355-3045-4db6-a72c-3c5855b97a7e" />
 
 - Agent Workflow
- <img width="1920" height="1080" alt="Screenshot 2026-04-09 160423" src="https://github.com/user-attachments/assets/fd658693-26eb-4fb3-a0d8-3cac59b4a743" />
+ <img width="1920" height="1080" alt="Screenshot 2026-04-09 161251" src="https://github.com/user-attachments/assets/f34a8c55-bb54-4630-a77e-128eee59889b" />
 
 - Generated Report
-  <img width="1920" height="1080" alt="Screenshot 2026-04-09 160441" src="https://github.com/user-attachments/assets/9f245291-f096-435a-88c2-2373c1e610e7" />
+  <img width="1920" height="1080" alt="Screenshot 2026-04-09 161306" src="https://github.com/user-attachments/assets/a90611ee-56a4-446e-bcaf-38e42edc620b" />
 
 - PDF Download
-  <img width="1920" height="1080" alt="Screenshot 2026-04-09 160541" src="https://github.com/user-attachments/assets/44ff31ab-f577-4938-ae4c-b9a13244e8c7" />
+  <img width="1920" height="1080" alt="Screenshot 2026-04-09 161626" src="https://github.com/user-attachments/assets/1b5e35cc-584f-4a27-ac29-cff249e9417b" />
+
+  
 
 ---
 
