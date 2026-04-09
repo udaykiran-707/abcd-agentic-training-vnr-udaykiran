@@ -1,65 +1,106 @@
-# 🚀 Multi Agent Researcher & Report Generator
+ 🚀 Multi Agent Researcher & Report Generator
 
 An AI-powered multi-agent system that automates the complete research workflow — from data collection to structured report generation and PDF export.
 
 ---
 
-## 📌 Overview
-
-This project simplifies research using an **agentic architecture**, where multiple specialized agents collaborate step-by-step to complete a task.
-
-Instead of relying on a single AI model, the system breaks the workflow into smaller components handled by different agents — making the process modular, transparent, and efficient.
-
----
-
-## 🔁 Agentic Workflow
+🔁 Agentic Workflow
 
 User Input → Research Agent → Filter Agent → Summarizer Agent → Writer Agent → PDF + UI Output
 
 ---
 
-## ⚙️ How It Works
+1. Business Problem
 
-1. **User Input**
-   The user enters a topic for research.
+In today’s digital age, research is inefficient due to:
 
-2. **Agent Workflow**
-   🔍 Research Agent → Collects data from Wikipedia & web sources
-   🧹 Filter Agent → Cleans and processes raw data
-   🧠 Summarizer → Extracts key insights
-   📄 Writer Agent → Generates structured report
-   📥 PDF Generator → Converts report into downloadable PDF
-
-3. **Output**
-
-   * Displays structured report
-   * Provides downloadable PDF
-   * Stores history of previous searches
+- Information overload from multiple sources
+- Lack of a unified system to aggregate data
+- Difficulty in summarizing large content
+- Time-consuming report formatting
 
 ---
 
-## ✨ Features
+2. Possible Solution
 
-* Multi-agent architecture
-* Real-time agent execution visualization
-* Automated research → filtering → reporting pipeline
-* PDF report generation
-* Memory-based history tracking
-* Interactive Streamlit UI
-* Deployed and accessible online
+- Use Agentic Workflow (Researcher, Filter, Summarizer, Writer)
+- Apply NLP Models (BART/T5) for summarization
+- Use Web APIs (Wikipedia, DuckDuckGo) for data collection
+- Generate reports dynamically using PDF libraries
 
 ---
 
-## 🛠 Tech Stack
+3. Implemented Solution
 
-* Python
-* Streamlit
-* APIs (Wikipedia / Web search)
-* FPDF
+A fully functional Multi-Agent Research System built in Python.
+
+🔁 Workflow:
+
+- 🔍 Research Agent → Collects data from Wikipedia & web
+- 🧹 Filter Agent → Cleans unwanted data
+- 🧠 Summarizer Agent → Uses BART model for summarization
+- 📄 Writer Agent → Creates structured report
+- 📥 PDF Generator → Generates downloadable report
+- 💾 Memory → Stores history in JSON
 
 ---
 
-## 📂 Project Structure
+⚙️ How It Works
+
+1. User enters a topic
+2. System collects and processes data using agents
+3. Generates structured report
+4. Converts it into downloadable PDF
+5. Stores history for future use
+
+---
+
+✨ Features
+
+- Multi-agent architecture
+- Real-time agent execution visualization
+- Automated research → filtering → reporting pipeline
+- PDF report generation
+- Memory-based history tracking
+- Interactive Streamlit UI
+- Deployed and accessible online
+
+---
+
+4. Tech Stack Used
+
+- Python → Core logic and backend development  
+- Streamlit → User interface and interaction  
+- HuggingFace Transformers → Text summarization  
+- PyTorch → Backend for AI models  
+- Wikipedia API → Fetching encyclopedia data  
+- DuckDuckGo Search → Fetching web data  
+- FPDF → Generating PDF reports  
+- requests, re, json → Data processing and utilities
+
+---
+
+5. Architecture Diagram
+
+User → Streamlit UI → Orchestrator
+        ↓
+   Research Agent
+        ↓
+   Filter Agent
+        ↓
+   Chunker
+        ↓
+   Summarizer Agent
+        ↓
+   Writer Agent
+        ↓
+   PDF Generator → Download
+        ↓
+   Memory (JSON Storage)
+
+---
+
+📂 Project Structure
 
 My_Agent_Project/
 │
@@ -79,79 +120,112 @@ My_Agent_Project/
 
 ---
 
-## 🚀 Installation & Setup
+6. How to Run in Local
 
-1. Clone the repository
-   git clone https://github.com/udaykiran-707/Agentic-AI-project.git
-   cd  Agentic-AI-project  
+Prerequisites
 
-2. Create virtual environment
-   python -m venv venv
+- Python 3.8+
+- pip
 
-3. Activate environment
-   venv\Scripts\activate
+Steps
 
-4. Install dependencies
-   pip install -r requirements.txt
+git clone "https://github.com/your-username/your-repo-name.git" (https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
 
-5. Run the app
-   streamlit run app.py
+python -m venv venv
 
----
+venv\Scripts\activate
 
-## 🌐 Live Demo
+pip install -r requirements.txt
 
-👉 https://agentic-multi-agents.streamlit.app/
+streamlit run app.py
 
 ---
 
-## 💻 GitHub Repository
+🌐 Live Demo
 
-👉 https://github.com/udaykiran-707/Agentic-AI-project
-
----
-
-## 🎯 What I Learned
-
-* Designing multi-agent workflows
-* Breaking complex systems into modular components
-* Building real-world AI applications
-* Deploying applications
+👉 "https://agentic-multi-agents.streamlit.app/" (https://agentic-multi-agents.streamlit.app/)
 
 ---
 
-## 🔮 Future Improvements
+💻 GitHub Repository
 
-* Add advanced AI/LLM summarization
-* Improve UI/UX with animations
-* Add database for persistent storage
-* Integrate more data sources
+👉 "https://github.com/udaykiran-707/Agentic-AI-project" (https://github.com/udaykiran-707/Agentic-AI-project)
 
 ---
 
-## 🤝 Contributing
+7. References and Resources Used
+
+- HuggingFace Transformers
+- Facebook BART Model
+- Wikipedia API
+- DuckDuckGo Search
+- Streamlit Documentation
+- FPDF Documentation
+
+---
+
+8. Recording
+
+👉 Add your demo video link here
+
+---
+
+9. Screenshots
+
+- Home Screen
+- Agent Workflow Visualization
+- Generated Report
+- PDF Download
+
+(Add images here)
+
+---
+
+10. Problems Faced and Solutions
+
+- Token limit errors → Implemented chunking to handle large text inputs  
+- API costs → Used DuckDuckGo search to avoid paid APIs  
+- Wikipedia ambiguity → Added error handling for disambiguation issues  
+- PDF encoding issues → Cleaned text to remove unsupported characters  
+- Slow UI → Used caching and Streamlit spinner for better performance
+
+---
+
+🎯 What I Learned
+
+- Designing multi-agent workflows
+- Breaking complex systems into modular components
+- Building real-world AI applications
+- Deploying applications
+
+---
+
+🔮 Future Improvements
+
+- Add advanced AI/LLM summarization
+- Improve UI/UX with animations
+- Add database for persistent storage
+- Integrate more data sources
+
+---
+
+🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
 ---
 
-## 📜 License
+📜 License
 
-This project is open-source and available under the MIT License.
-
----
-
-## 🙌 Acknowledgements
-
-* Streamlit
-* Python community
-* Open-source contributors
+MIT License
 
 ---
 
-## 📬 Contact
+👨‍💻 Author
 
-Feel free to connect for feedback or collaboration.
+K Uday Kiran Achari
+Agentic AI
 
 ---
 
