@@ -167,7 +167,7 @@ streamlit run app.py
 
 8. Recording
 
-👉 Add your demo video link here
+👉 [Add your demo video link here](https://youtu.be/XSwtXpgmxWk)
 
 ---
 
