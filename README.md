@@ -1,6 +1,7 @@
 🚀 Multi Agent Researcher & Report Generator
 
 An AI-powered multi-agent system that automates the complete research workflow — from data collection to structured report generation and PDF export.
+<img width="1919" height="1079" alt="Screenshot 2026-03-29 171719" src="https://github.com/user-attachments/assets/4737fe52-8bff-49c1-a35c-c636957ca564" />
 
 ---
 
