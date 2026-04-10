@@ -166,10 +166,7 @@ streamlit run app.py
 ---
 
 8. Recording
-   <video width="600" controls>
-  <source src="My Project Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+   https://youtu.be/XSwtXpgmxWk?si=QMpkBCOpn3sCRH4A
 ---
 
 9. Screenshots
