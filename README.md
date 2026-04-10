@@ -82,21 +82,8 @@ A fully functional Multi-Agent Research System built in Python.
 
 # 5. Architecture Diagram
 
-User → Streamlit UI → Orchestrator
-        ↓
-   Research Agent
-        ↓
-   Filter Agent
-        ↓
-   Chunker
-        ↓
-   Summarizer Agent
-        ↓
-   Writer Agent
-        ↓
-   PDF Generator → Download
-        ↓
-   Memory (JSON Storage)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ee8daa60-1bdf-47b0-9c17-fb3ebca72e0d" />
+
 
 ---
 
