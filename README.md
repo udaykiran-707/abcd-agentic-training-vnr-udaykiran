@@ -1,16 +1,16 @@
-🚀 MULTI AGENT RESEARCHER & REPORT GENERATOR
+# 🚀 MULTI AGENT RESEARCHER & REPORT GENERATOR
 
 An AI-powered multi-agent system that automates the complete research workflow — from data collection to structured report generation and PDF export.
 
 ---
 
-🔁 Agentic Workflow
+# 🔁 Agentic Workflow
 
 User Input → Research Agent → Filter Agent → Summarizer Agent → Writer Agent → PDF + UI Output
 
 ---
 
-1. Business Problem
+# 1. Business Problem
 
 In today’s digital age, research is inefficient due to:
 
@@ -21,7 +21,7 @@ In today’s digital age, research is inefficient due to:
 
 ---
 
-2. Possible Solution
+# 2. Possible Solution
 
 - Use Agentic Workflow (Researcher, Filter, Summarizer, Writer)
 - Apply NLP Models (BART/T5) for summarization
@@ -30,7 +30,7 @@ In today’s digital age, research is inefficient due to:
 
 ---
 
-3. Implemented Solution
+# 3. Implemented Solution
 
 A fully functional Multi-Agent Research System built in Python.
 
@@ -45,7 +45,7 @@ A fully functional Multi-Agent Research System built in Python.
 
 ---
 
-⚙️ How It Works
+# ⚙️ How It Works
 
 1. User enters a topic
 2. System collects and processes data using agents
@@ -55,7 +55,7 @@ A fully functional Multi-Agent Research System built in Python.
 
 ---
 
-✨ Features
+# ✨ Features
 
 - Multi-agent architecture
 - Real-time agent execution visualization
@@ -67,7 +67,7 @@ A fully functional Multi-Agent Research System built in Python.
 
 ---
 
-4. Tech Stack Used
+# 4. Tech Stack Used
 
 - Python → Core logic and backend development  
 - Streamlit → User interface and interaction  
@@ -80,7 +80,7 @@ A fully functional Multi-Agent Research System built in Python.
 
 ---
 
-5. Architecture Diagram
+# 5. Architecture Diagram
 
 User → Streamlit UI → Orchestrator
         ↓
@@ -100,7 +100,7 @@ User → Streamlit UI → Orchestrator
 
 ---
 
-📂 Project Structure
+# 📂 Project Structure
 
 My_Agent_Project/
 │
@@ -120,14 +120,14 @@ My_Agent_Project/
 
 ---
 
-6. How to Run in Local
+# 6. How to Run in Local
 
 Prerequisites
 
 - Python 3.8+
 - pip
 
-Steps
+Steps:
 
 git clone "https://github.com/your-username/your-repo-name.git" (https://github.com/your-username/your-repo-name.git)
 cd your-repo-name
@@ -142,10 +142,10 @@ streamlit run app.py
 
 ---
 
-Recording
+# Recording
 https://youtu.be/XSwtXpgmxWk?si=QMpkBCOpn3sCRH4A
 
-Screenshots
+# Screenshots
 
 - Home Screen
  <img width="1920" height="1080" alt="Screenshot 2026-04-09 160257" src="https://github.com/user-attachments/assets/6d14a355-3045-4db6-a72c-3c5855b97a7e" />
@@ -163,7 +163,7 @@ Screenshots
 
 ---
 
-7. References and Resources Used
+# 7. References and Resources Used
 
 - HuggingFace Transformers
 - Facebook BART Model
@@ -173,20 +173,20 @@ Screenshots
 - FPDF Documentation
 
 ---
-8.🌐 Live Demo
+# 8.🌐 Live Demo
 
 👉 "https://agentic-multi-agents.streamlit.app/" (https://agentic-multi-agents.streamlit.app/)
 
 ---
 
-9.💻 GitHub Repository
+# 9.💻 GitHub Repository
 
 👉 "https://github.com/udaykiran-707/Agentic-AI-project" (https://github.com/udaykiran-707/Agentic-AI-project)
 
 ---
 
 
-10. Problems Faced and Solutions
+# 10. Problems Faced and Solutions
 
 - Token limit errors → Implemented chunking to handle large text inputs  
 - API costs → Used DuckDuckGo search to avoid paid APIs  
@@ -196,7 +196,7 @@ Screenshots
 
 ---
 
-🎯 What I Learned
+# 🎯 What I Learned
 
 - Designing multi-agent workflows
 - Breaking complex systems into modular components
@@ -205,7 +205,7 @@ Screenshots
 
 ---
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 
 - Add advanced AI/LLM summarization
 - Improve UI/UX with animations
@@ -213,22 +213,6 @@ Screenshots
 - Integrate more data sources
 
 ---
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repo and submit a pull request.
-
----
-
-📜 License
-
-MIT License
-
----
-
-👨‍💻 Author
-
-K Uday Kiran Achari - Agentic AI
 
 ---
 
